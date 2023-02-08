@@ -1,0 +1,48 @@
+:root {
+  --color-white: #fff;
+  --color-madison: #0e3b6c;
+  --color-astral: #3172b9;
+  --color-havelockBlue: #71a7e2;
+  --color-gray: #888;
+}
+
+ul {
+  margin: 0;/*Убираем оступы*/
+  padding: 0;/*Убираем оступы*/
+  list-style: none;/*Убираем маркеры*/
+}
+
+.btn {
+  border: 1px solid var(--color-astral);
+  border-radius: inherit;
+  min-width: 100px;
+  outline: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-gray);
+}
+
+.btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-havelockBlue);
+}
+
+.btn:active {
+  background-color: var(--color-madison);
+}
+
+/*Табы*/
+.tabs-nav__btn--active {
+	color: tan;
+}
+
+.tabs-item {
+	display: none;
+}
+
+.tabs-item--active {
+	display: block;
+}
